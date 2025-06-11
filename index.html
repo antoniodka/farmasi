@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,81 +27,81 @@
     }
   </style>
 </head>
-<body class="text-gray-800 font-sans">
-
-  <header class="shadow p-4">
+<body class="text-gray-800 font-sans">  <header class="shadow p-4">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold text-pink-600">Mi Belleza Natural</h1>
     </div>
-  </header>
+  </header>  <main class="container mx-auto px-4 py-8"><h2 class="text-3xl font-bold text-center text-pink-700 mb-6">Catálogo de Productos</h2>
 
-  <main class="container mx-auto px-4 py-8">
+<script>
+  const categorias = [
+    { nombre: "Labiales", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YeebGknth80xsnbxOMj2nuyVjhkBp5sxbA&s" },
+    { nombre: "Máscaras", imagen: "https://http2.mlstatic.com/D_NQ_NP_850914-MLM50350781199_062022-O.webp" },
+    { nombre: "Delineadores para Ojos", imagen: "https://www.faroshop.co/cdn/shop/files/EyeProPlumon.png?v=1736901076&width=1445" },
+    { nombre: "Sombras para Ojos", imagen: "https://i.pinimg.com/736x/79/26/cb/7926cb73730ca4ecc16467704f07dd08.jpg" },
+    { nombre: "Cejas", imagen: "https://i.ytimg.com/vi/g7jlxJ4tlbc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDMSJ5xU4DU7yiPlWJ6p-ZPrQHWeA" },
+    { nombre: "Brochas", imagen: "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/7fa8aee77bdf3911d15f9c02394b8d3e.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" },
+    { nombre: "Primers", imagen: "https://www.maybelline.es/-/media/project/loreal/brand-sites/mny/emea/iberic/products/face/primer/fit-me-primer/dg58832_380x565_matificante_1.jpg?rev=b067267952d6452ea4d3185ce776eb0c" },
+    { nombre: "Maquillajes", imagen: "https://images.ctfassets.net/o65uf8qogksw/3bDjLOWQVXIQz5L2NC6jB5/10bb92052d138da6cc64be8cca0c6172/conoce-los-productos-ensenciales-para-tu-maquillaje-preview.jpg" },
+    { nombre: "Polvos", imagen: "https://www.shutterstock.com/image-photo/cosmetic-face-powder-compact-puff-600nw-1320163796.jpg" },
 
-    <h2 class="text-3xl font-bold text-center text-pink-700 mb-6">Catálogo de Productos</h2>
+    { nombre: "Contour y Blush", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7DJTWN6FYgcFn9tYSbL-as4OqpHJvSoWvlw&s" },
 
-    <script>
-      const categorias = [
-        { nombre: "Labiales", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YeebGknth80xsnbxOMj2nuyVjhkBp5sxbA&s" },
-        { nombre: "Máscaras", imagen: "https://http2.mlstatic.com/D_NQ_NP_850914-MLM50350781199_062022-O.webp" },
-        { nombre: "Delineadores para Ojos", imagen: "https://www.faroshop.co/cdn/shop/files/EyeProPlumon.png?v=1736901076&width=1445" },
-        { nombre: "Sombras para Ojos", imagen: "https://i.pinimg.com/736x/79/26/cb/7926cb73730ca4ecc16467704f07dd08.jpg" },
-        { nombre: "Cejas", imagen: "https://i.ytimg.com/vi/g7jlxJ4tlbc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDMSJ5xU4DU7yiPlWJ6p-ZPrQHWeA" },
-        { nombre: "Brochas", imagen: "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/7fa8aee77bdf3911d15f9c02394b8d3e.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" },
-        { nombre: "Primers", imagen: "https://www.maybelline.es/-/media/project/loreal/brand-sites/mny/emea/iberic/products/face/primer/fit-me-primer/dg58832_380x565_matificante_1.jpg?rev=b067267952d6452ea4d3185ce776eb0c" },
-        { nombre: "Maquillajes", imagen: "https://images.ctfassets.net/o65uf8qogksw/3bDjLOWQVXIQz5L2NC6jB5/10bb92052d138da6cc64be8cca0c6172/conoce-los-productos-ensenciales-para-tu-maquillaje-preview.jpg" },
-        { nombre: "Polvos", imagen: "https://via.placeholder.com/100x80?text=Polvos" },
-        { nombre: "Contour y Blush", imagen: "https://via.placeholder.com/100x80?text=Contour" },
-        { nombre: "Fijador de Maquillaje / Desmaquillante", imagen: "https://via.placeholder.com/100x80?text=Fijador" },
-        { nombre: "Perfumes para Mujer", imagen: "https://via.placeholder.com/100x80?text=Perfume+Mujer" },
-        { nombre: "Perfumes para Hombre", imagen: "https://via.placeholder.com/100x80?text=Perfume+Hombre" },
-        { nombre: "Shieldman", imagen: "https://via.placeholder.com/100x80?text=Shieldman" },
-        { nombre: "Cuidado Personal", imagen: "https://via.placeholder.com/100x80?text=Cuidado" },
-      ];
+    { nombre: "Fijador de Maquillaje / Desmaquillante", imagen: "https://content.co.farmasi.com/Product/1302417_400.jpg" },
 
-      document.addEventListener("DOMContentLoaded", () => {
-        const main = document.querySelector("main");
-        categorias.forEach(({ nombre, imagen }) => {
-          const id = nombre.toLowerCase().replace(/[^a-z0-9]/g, "-");
-          const bloque = document.createElement("div");
-          bloque.className = "mb-4";
-          bloque.innerHTML = `
-            <button onclick="toggleSection('${id}')" class="w-full bg-pink-200 text-left p-4 rounded-xl font-semibold text-pink-800 hover:bg-pink-300 transition flex items-center space-x-4">
-              <img src="${imagen}" alt="${nombre}" class="w-16 h-16 object-cover rounded-2xl shadow-lg ring-2 ring-pink-300">
-              <span>${nombre}</span>
-            </button>
-            <div id="${id}" class="hidden mt-2 space-y-4">
-              <div class="bg-white p-4 rounded-xl shadow flex justify-between items-center">
-                <div>
-                  <h4 class="text-xl font-semibold">Producto 1 - ${nombre}</h4>
-                  <p class="text-gray-600">$30.000</p>
-                </div>
-                <a href="https://wa.me/573508002857?text=Hola,%20quiero%20comprar%20*Producto%201%20-%20${encodeURIComponent(nombre)}*%20por%20$30.000"
-                   class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl">
-                  Comprar
-                </a>
-              </div>
-              <div class="bg-white p-4 rounded-xl shadow flex justify-between items-center">
-                <div>
-                  <h4 class="text-xl font-semibold">Producto 2 - ${nombre}</h4>
-                  <p class="text-gray-600">$28.000</p>
-                </div>
-                <a href="https://wa.me/573508002857?text=Hola,%20quiero%20comprar%20*Producto%202%20-%20${encodeURIComponent(nombre)}*%20por%20$28.000"
-                   class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl">
-                  Comprar
-                </a>
-              </div>
+
+    { nombre: "Perfumes para Mujer", imagen: "https://content.co.farmasi.com/Product/1000490_250.jpg" },
+
+
+    { nombre: "Perfumes para Hombre", imagen: "https://content.co.farmasi.com/Product/1107484_250.jpg" },
+
+
+    { nombre: "Shieldman", imagen: "https://content.co.farmasi.com/Product/1119082_400.jpg" },
+
+
+    { nombre: "Cuidado Personal", imagen: "https://content.co.farmasi.com/Product/1000404_400.jpg" },
+  ];
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const main = document.querySelector("main");
+    categorias.forEach(({ nombre, imagen }) => {
+      const id = nombre.toLowerCase().replace(/[^a-z0-9]/g, "-");
+      const bloque = document.createElement("div");
+      bloque.className = "mb-4";
+      bloque.innerHTML = `
+        <button onclick="toggleSection('${id}')" class="w-full bg-pink-200 text-left p-4 rounded-xl font-semibold text-pink-800 hover:bg-pink-300 transition flex items-center space-x-4">
+          <img src="${imagen}" alt="${nombre}" class="w-16 h-16 object-cover rounded-2xl shadow-lg ring-2 ring-pink-300">
+          <span>${nombre}</span>
+        </button>
+        <div id="${id}" class="hidden mt-2 space-y-4">
+          <div class="bg-white p-4 rounded-xl shadow flex justify-between items-center">
+            <div>
+              <h4 class="text-xl font-semibold">Producto 1 - ${nombre}</h4>
+              <p class="text-gray-600">$30.000</p>
             </div>
-          `;
-          main.appendChild(bloque);
-        });
-      });
-    </script>
+            <a href="https://wa.me/573508002857?text=Hola,%20quiero%20comprar%20*Producto%201%20-%20${encodeURIComponent(nombre)}*%20por%20$30.000"
+               class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl">
+              Comprar
+            </a>
+          </div>
+          <div class="bg-white p-4 rounded-xl shadow flex justify-between items-center">
+            <div>
+              <h4 class="text-xl font-semibold">Producto 2 - ${nombre}</h4>
+              <p class="text-gray-600">$28.000</p>
+            </div>
+            <a href="https://wa.me/573508002857?text=Hola,%20quiero%20comprar%20*Producto%202%20-%20${encodeURIComponent(nombre)}*%20por%20$28.000"
+               class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-xl">
+              Comprar
+            </a>
+          </div>
+        </div>
+      `;
+      main.appendChild(bloque);
+    });
+  });
+</script>
 
-  </main>
-
-  <footer class="text-center p-6 mt-12">
-    <p class="text-gray-500">&copy; 2025 Mi Belleza Natural. Contáctanos por <a href="https://wa.me/573508002857" class="text-pink-500 underline">WhatsApp</a></p>
-  </footer>
-
-</body>
+  </main>  <footer class="text-center p-6 mt-12">
+    <p class="text-gray-500">&copy; 2025 Mi Belleza Natural PRODUCTOS FARMASI. Contáctanos por <a href="https://wa.me/573508002857" class="text-pink-500 underline">WhatsApp</a></p>
+  </footer></body>
 </html>
